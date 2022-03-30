@@ -1,0 +1,215 @@
+@import url("default.css");
+
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: #ffffff !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: var(--orange);
+  font-weight: 700;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--orange);
+  border-color: var(--orange);
+  opacity: 0.7;
+  transition: all 0.5s;
+}
+
+.btn-primary:hover,
+.btn-check:focus + .btn-primary,
+.btn-primary:focus {
+  color: #fff;
+  background-color: var(--orange);
+  border-color: var(--orange);
+  opacity: 1;
+  box-shadow: 0 0 0 0rem #ffffff00;
+}
+
+.btn-outline-primary {
+  color: var(--orange);
+  border-color: var(--orange);
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: var(--orange);
+  border-color: var(--orange);
+}
+
+@media (min-width: 768px) {
+  .bg-orange-r {
+    background: url("../img/all-img/rectangle-right.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: 100% 100% !important;
+    height: 38rem !important;
+  }
+
+  .bg-orange-l {
+    background: url("../img/all-img/rectangle-left.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: 0% 100% !important;
+    height: 41rem !important;
+    margin: 15rem 0px !important;
+  }
+
+  .h-25rem {
+    height: 25rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .bg-o-r-half {
+    background: url("../img/all-img/rectangle-r-half.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: 100% 100% !important;
+    height: 42rem !important;
+  }
+
+  .c-88-m {
+    color: #888d96 !important;
+  }
+
+  .c-2e-m {
+    color: #2e2e2e !important;
+  }
+
+  .nav-item.d-flex.align-items-center {
+    display: flex !important;
+  }
+}
+
+.bg-orange-r {
+  background: var(--orange);
+  height: 100rem;
+}
+
+.bg-orange-l {
+  background: var(--orange);
+  height: 95rem;
+  margin: 5rem 0px;
+}
+
+.bg-o-r-half {
+  background: var(--orange);
+  height: 45rem;
+}
+
+.c-88-m {
+  color: #ffffff;
+}
+
+.c-2e-m {
+  color: #ffffff;
+}
+
+.nav-item.d-lg-flex.align-items-center {
+  display: none;
+}
+
+.h-29rem {
+  height: 29rem;
+}
+
+.h-25rem {
+  height: 53rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #2e2e2e;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0px solid #ffffff00;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.input-group-text {
+  display: flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--orange);
+  text-align: center;
+  white-space: nowrap;
+  background-color: #ffffff00;
+  border: 0px solid #ffffff00;
+  border-radius: 0;
+}
+
+.form-control:focus {
+  color: #2e2e2e;
+  background-color: #fff;
+  border: 0px solid var(--orange);
+  outline: 0;
+  box-shadow: 0 0 0 0.15rem #f36b492c;
+}
+
+.position-relative-t-44 {
+  position: relative;
+  top: -44px;
+}
+
+.max-h-130 {
+  max-height: 130px;
+  overflow-y: auto;
+}
+
+.bg-primary {
+  background-color: var(--orange) !important;
+}
+
+::-webkit-resizer {
+  display: none;
+}
+
+.navbar-sticky {
+  position: sticky;
+  top: 0px;
+  z-index: 999;
+}
+
+.btn-check:active + .btn-primary:focus,
+.btn-check:checked + .btn-primary:focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,
+.show > .btn-primary.dropdown-toggle:focus,
+.btn-check:active + .btn-primary,
+.btn-check:checked + .btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: var(--orange) !important;
+  border-color: var(--orange) !important;
+  opacity: 1;
+  box-shadow: 0 0 0 0rem #ffffff00 !important;
+}
+
+div {
+  position: relative;
+  animation: myfirst 10s ease-in-out 2ms;
+}
+
+@keyframes myfirst {
+  0% {
+    left: -200px;
+  }
+  25% {
+    left: 0px;
+  }
+}
